@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 // Логин/пароль по умолчанию: incidum / admin. Для продакшена задайте свои:
 //   ADMIN_LOGIN=... ADMIN_PASSWORD=... node server.js
 const ADMIN_LOGIN = process.env.ADMIN_LOGIN || 'incidum';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'sosi';
 
 const DATA = path.join(__dirname, 'data');
 const UPLOADS = path.join(DATA, 'uploads');
